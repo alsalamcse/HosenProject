@@ -38,9 +38,9 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
         BTNDELETE = (Button) findViewById(R.id.BTNDELETE);
         auth = FirebaseAuth.getInstance();
         firebaseUser = auth.getCurrentUser();
+        BTNSave.setOnClickListener(this);
 //
     }
-
     public void onClick(View view) {
         dataHander();
 
@@ -63,7 +63,6 @@ public class Signup extends AppCompatActivity implements View.OnClickListener {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(Signup.this, "Authentication Successful.", Toast.LENGTH_SHORT).show();
-                    //updateUserProfile(task.getResult().getUser());
                     finish();
                 } else {
                     Toast.makeText(Signup.this, "Authentication failed." + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
