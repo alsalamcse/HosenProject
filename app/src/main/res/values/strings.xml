@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">HosenProject</string>
+    <string name="PhoneNumber">Add Phone Number</string>
+    <string name="IdNUmber">Add Id NUmber</string>
+    <string name="IDNumber">Add ID Number</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

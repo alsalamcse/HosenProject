@@ -43,6 +43,8 @@ public class HosenProject extends AppCompatActivity implements View.OnClickListe
         etpassw = (EditText) findViewById(R.id.etpassw);
         btnsignin1 = (Button) findViewById(R.id.btnsignin1);
         tvmanager = (TextView) findViewById(R.id.tvmanager);
+
+
         etemail2 = (EditText) findViewById(R.id.etemail2);
         etpassw2 = (EditText) findViewById(R.id.etpassw2);
         etsignin = (Button) findViewById(R.id.etsignin);
@@ -69,6 +71,7 @@ public class HosenProject extends AppCompatActivity implements View.OnClickListe
                 }
             }
         });
+
     }
     @Override
     public void onClick(View view) {
