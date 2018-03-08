@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "878693782538",
+    "firebase_url": "https://hosenproject.firebaseio.com",
+    "project_id": "hosenproject",
+    "storage_bucket": "hosenproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878693782538:android:87da02acf4b3352f",
+        "android_client_info": {
+          "package_name": "com.aga.hosen.hosenproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878693782538-fs1nk95j33spl1jrd5jtc3ibg1tckrep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aga.hosen.hosenproject",
+            "certificate_hash": "013f43c9a5d380c46de43c04644418dbe5d2a253"
+          }
+        },
+        {
+          "client_id": "878693782538-m0tgmin791eur5gua4he6r9t7dq8n9mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJx0Px11_yvH1z6FX-Za3t8vg7yr2ZXmM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878693782538-m0tgmin791eur5gua4he6r9t7dq8n9mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
